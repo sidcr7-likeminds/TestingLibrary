@@ -6,4 +6,8 @@ object MyLibrary {
     fun init(message: String) {
         Log.d("PUI", message)
     }
+
+    fun newFun(message: String) {
+        Log.d("PUI", "newFun $message")
+    }
 }
