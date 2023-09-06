@@ -10,4 +10,8 @@ object MyLibrary {
     fun newFun(message: String) {
         Log.d("PUI", "newFun $message")
     }
+
+    fun updateFun(message: String) {
+        Log.d("PUI", "updateFun $message")
+    }
 }
